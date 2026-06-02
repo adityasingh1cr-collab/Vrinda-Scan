@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vrinda scan </title>
+    <link rel="stylesheet" href="Vrinda.css">
+</head>
+<body>
+   <div class="main-body">
+    <div class="navbar">
+        <img src="profile.icons.webp" alt="Vrinda Logo" class="logo">
+    </div>
+    <div class="scanner-box">
+        <div class="scanner-header">
+            <h1>Camera Scanner</h1>
+            <p>Tap allow to open your laptop or mobile camera.</p>
+        </div>
+        <div class="video-frame">
+            <video id="cameraVideo" autoplay playsinline></video>
+            <div id="videoOverlay">Loading camera...</div>
+        </div>
+        <div class="scanner-actions">
+            <button id="startCamera">Start Camera</button>
+            <button id="stopCamera" disabled>Stop Camera</button>
+            <p id="cameraMessage" class="message"></p>
+        </div>
+    </div>
+   </div>
+   <script src="Vrinda.js"></script>
+</body>
+</html>
